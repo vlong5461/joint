@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.he.joint.view.MainHomeVeiw xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/llContentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ivSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:paddingRight="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ty_sousuo2"/>
+        <HorizontalScrollView
+            android:id="@+id/hScrollView"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="4"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/llTopAreaContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+        </HorizontalScrollView>
+        <ImageView
+            android:id="@+id/ivQuestion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingRight="15dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ty_sousuo2"/>
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/white_2"
+            />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.third.view.pullablelistview.PullToRefreshLayout
+                android:id="@+id/refresh_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/topContainer" >
+
+                <include layout="@layout/pullable_refresh_head" />
+
+                <com.third.view.pullablelistview.PullableDownListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:listSelector="@color/transparent"
+                    android:cacheColorHint="@color/transparent"
+                    android:scrollbars="none" >
+                </com.third.view.pullablelistview.PullableDownListView>
+
+                <include layout="@layout/pullable_load_more" />
+            </com.third.view.pullablelistview.PullToRefreshLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </android.support.v4.view.ViewPager>
+        </FrameLayout>
+    </LinearLayout>
+
+</com.he.joint.view.MainHomeVeiw>

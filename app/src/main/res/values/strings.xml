@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">"Joint "</string>
+    <string name="waiting_message">正在加载中</string>
+    <!-- main -->
+    <string name="main_home">资讯</string>
+    <string name="main_ask">问答</string>
+    <string name="main_message">消息</string>
+    <string name="main_my">我的</string>
+    <!-- register -->
+    <string name="login">登录</string>
+    <string name="logout">退出登录</string>
+    <string name="register">注册</string>
+    <string name="username">用户名</string>
+    <string name="password">密   码</string>
+    <string name="verification_code">验证码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="third_login">第三方登录</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_modify">确认修改</string>
+    <string name="register_input_phone_number">输入注册手机号</string>
+    <string name="register_input_phone_code">输入手机验证码</string>
+    <string name="register_input_password">请输入6～20位密码</string>
+    <string name="register_input_password_2">输入密码</string>
+    <string name="register_get_verification_code">获取验证码</string>
+    <string name="register_username">用户名:</string>
+    <string name="register_password">密码:</string>
+    <string name="register_verification_code">验证码:</string>
+
+    <string name="more_feedback_content">请输入反馈内容</string>
+    <string name="more_feedback_upload_photo">上传照片：</string>
+    <!-- pullablelistview -->
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放更新</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="down_bottom">— 合众 —</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="refreshing">加载中...</string>
+
+    <string name="str_recorder_normal">按住说话</string>
+    <string name="str_recorder_recording">松开结束</string>
+    <string name="str_recorder_want_cancel">松开手指，取消发送</string>
+
+    <!-- 图片浏览 -->
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="finish">完成</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <string name="preview">预览</string>
+    <string name="unfinished">完成</string>
+    <string name="camera_cancel">取消</string>
+    <string name="allphoto">所有照片</string>
+    <string name="no_photo">相册没有图片</string>
+
+    <!-- jpush -->
+    <string name="tag_hint">Tag为大小写字母，数字，下划线,中文， 多个用以逗号分隔</string>
+    <string name="alias_hint">Alias为大小写字母，数字，下划线</string>
+    <string name="style_hint">style为数字</string>
+    <string name="error_style_empty">style不能为空</string>
+    <string name="error_alias_empty">alias不能为空</string>
+    <string name="error_tag_empty">tag不能为空</string>
+    <string name="error_tag_gs_empty">格式不对</string>
+    <string name="error_network">网络连接异常,初始化失败 请检查网络！</string>
+    <string name="logining">程序在后台执行, 请查看日志！</string>
+    <string name="setting_su">设置成功</string>
+
+    <!--通知提示-->
+    <string name="notice_title">开启消息通知</string>
+    <string name="notice_list1">订单状态变动提示</string>
+    <string name="notice_list2">旅程中重要消息通知</string>
+    <string name="notice_list3">出行凭证发放通知</string>
+    <string name="notice_cancel">暂不</string>
+    <string name="notice_open">马上开启</string>
+
+    <string name="main_my_favorite">我的收藏</string>
+    <string name="more_share_app">分享客户端</string>
+    <string name="more_feedback">意见反馈</string>
+    <string name="more_score">给我评分</string>
+    <string name="more_assistant">使用帮助</string>
+    <string name="more_clear_cache">清除缓存</string>
+    <string name="more_msg_notification">消息通知提醒</string>
+    <string name="text_no_search_favorite">暂无收藏</string>
+    <string name="delete">删除</string>
+</resources>

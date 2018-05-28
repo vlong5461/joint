@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/top_nav_bar" />
+    <LinearLayout
+        android:id="@+id/llTitle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvNoReply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="待回复"/>
+        <include layout="@layout/splite_line_middle"/>
+        <TextView
+            android:id="@+id/tvReply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="已回复"
+            android:textColor="@color/gray_2"/>
+    </LinearLayout>
+
+    <com.third.view.pullablelistview.PullToRefreshLayout
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llTitle" >
+
+        <include layout="@layout/pullable_refresh_head" />
+
+        <com.third.view.pullablelistview.PullableListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@color/white"
+            android:divider="@color/splite_line"
+            android:dividerHeight="10dp"
+            android:listSelector="@color/transparent"
+            android:scrollbars="none" >
+        </com.third.view.pullablelistview.PullableListView>
+
+        <include layout="@layout/pullable_load_more" />
+    </com.third.view.pullablelistview.PullToRefreshLayout>
+</LinearLayout>

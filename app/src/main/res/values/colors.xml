@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- drawable -->
+    <drawable name="transparent">#00FFFFFF</drawable>
+    <drawable name="red_bg">#ffff0000</drawable>
+    <drawable name="gray_eeeeee">#eeeeee</drawable>
+    <drawable name="orange_red">#fc665e</drawable>
+    <drawable name="white_transparent_10">#10ffffff</drawable>
+    <drawable name="white_transparent_20">#20ffffff</drawable>
+    <drawable name="white_transparent_30">#30ffffff</drawable>
+    <drawable name="picture_bg_40000000">#40000000</drawable>
+    <drawable name="split_line">#ffe8e8e8</drawable>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="white_1">#eeeeee</color>
+    <color name="white_2">#dddddd</color>
+    <color name="red">#ff0000</color>
+    <color name="red_fc665e">#fc665e</color>
+    <color name="splite_line">#e5e5e5</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_666666">#666666</color>
+    <color name="black">#000000</color>
+    <color name="gray_999999">#999999</color>
+    <color name="gray_f8f8f8">#f8f8f8</color>
+    <color name="common_text_gray">#666666</color>
+    <color name="orange_red">#fc665e</color>
+    <color name="black_222222">#222222</color>
+    <color name="red_ffebeb">#ffebeb</color>
+    <color name="hint_text_color">#c8c8c8</color>
+    <color name="gray_2">#888888</color>
+    <color name="gray_4">#9a9a9a</color>
+    <color name="gray_text">#666666</color>
+    <color name="gary_text_2">#999999</color>
+    <color name="gray_ededed">#ededed</color>
+    <color name="gray_bbbbbb">#bbbbbb</color>
+    <color name="common_bg_gray">#eeeeee</color>
+    <color name="click_background">#F2F2F2</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+</resources>

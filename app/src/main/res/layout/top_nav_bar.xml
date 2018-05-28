@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llTopNavBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@color/red_fc665e"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/topNavBarLeftBack"
+            android:layout_width="47dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:padding="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/nav_fanhui" />
+
+        <TextView
+            android:id="@+id/topNavBarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="47dp"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/topLin"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/splite_line"
+        android:visibility="gone"/>
+
+</LinearLayout>

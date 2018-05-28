@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_nav_bar" />
+    
+    
+    <com.third.view.pullablelistview.PullToRefreshLayout
+        android:id="@+id/pullLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/pullable_refresh_head" />
+
+        <com.he.joint.slidelistview.SlideListView
+        xmlns:slide="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:paddingTop="10dp"
+        android:divider="@color/splite_line"
+        android:dividerHeight="0dp"
+        android:listSelector="@color/transparent"
+            android:background="@color/white"
+        slide:slideAnimationTime="200"
+        slide:slideMode="right"
+        slide:slideRightAction="scroll" />
+
+        <include layout="@layout/pullable_load_more" />
+    </com.third.view.pullablelistview.PullToRefreshLayout>
+    
+	<TextView  
+            android:id="@+id/empty"  
+            android:layout_width="match_parent"  
+            android:layout_height="match_parent"   
+            android:gravity="center"  
+            android:padding="15dip"  
+            android:text="@string/text_no_search_favorite"  
+            android:textColor="@color/gary_text_2"  
+            android:textSize="17sp"
+            android:visibility="gone"
+            android:layout_marginBottom="100dp"
+
+            /> 
+</LinearLayout>

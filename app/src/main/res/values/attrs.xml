@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="roundedimageview2">
+        <attr name="border_thickness3" format="dimension" />
+        <attr name="border_inside_color3" format="color" />
+        <attr name="border_outside_color3" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <attr name="border_thickness2" format="dimension" />
+        <attr name="border_inside_color2" format="color" />
+        <attr name="border_outside_color2" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="indicator">
+        <attr name="selected_color" format="color"/>
+        <attr name="unselected_color" format="color"/>
+        <attr name="distance_from_two_indicator" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+    <attr name="indicatorDefStyleAttr" format="reference"/>
+    <declare-styleable name="GifMoviewView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifMoviewViewStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PowerImageView">
+        <attr name="auto_play" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
+
+    <!--录制视频控件-->
+    <declare-styleable name="MovieRecorderView">
+        <!-- 开始是否打开摄像头 -->
+        <attr name="is_open_camera" format="boolean" />
+        <!-- 一次拍摄最长时间 -->
+        <attr name="record_max_time" format="integer" />
+        <!-- 视频分辨率宽度 -->
+        <attr name="record_width" format="integer" />
+        <!-- 视频分辨率高度 -->
+        <attr name="record_height" format="integer" />
+    </declare-styleable>
+
+    <!-- FlickeringTextView -->
+    <declare-styleable name="FlickeringTextView">
+        <attr name="flickeringColor" format="color" />
+    </declare-styleable>
+
+    <!-- RingProgressBar -->
+    <declare-styleable name="RingProgressBar">
+        <attr name="startColor" format="color" />
+        <attr name="centerColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="max" format="float" />
+        <attr name="progress" format="float" />
+    </declare-styleable>
+</resources>

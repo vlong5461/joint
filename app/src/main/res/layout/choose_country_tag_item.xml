@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.third.view.tag.TagView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawablePadding="0dip"
+    android:minHeight="10dip"
+    android:minWidth="10dp"
+    android:paddingBottom="12dip"
+    android:paddingLeft="17dip"
+    android:paddingRight="17dip"
+    android:paddingTop="12dip"
+    android:textColor="@drawable/choose_country_tag_text_color"
+    android:textSize="14.0sp" />

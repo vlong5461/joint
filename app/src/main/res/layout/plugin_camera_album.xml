@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/common_bg_gray"
+    >
+
+    <RelativeLayout
+        android:id="@+id/headview"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#99ffffff"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/red_fc665e"
+            android:id="@+id/back"
+            android:text="@string/cancel"
+            android:drawableLeft="@drawable/nav_fanhui"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content" 
+      	    android:layout_height="wrap_content"
+        	android:textSize="16sp"
+        	android:textColor="@color/black_222222"
+        	android:id="@+id/title"
+        	android:text="@string/allphoto"
+      	    android:layout_centerVertical="true"
+      	    android:layout_centerHorizontal="true"
+      	    android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content" 
+      	    android:layout_height="wrap_content"
+        	android:textSize="16sp"
+        	android:textColor="@color/red_fc665e"
+        	android:id="@+id/finished"
+        	android:text="@string/unfinished"
+      	    android:layout_centerVertical="true"
+      	    android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentRight="true" 
+            />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/myGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/headview"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="2dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:verticalSpacing="10dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/no_photo"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

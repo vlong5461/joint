@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llProductInfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/item_clicked_bg_selector"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="强制性认证产品信息"
+                android:textColor="@color/common_text_gray"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="消防水带"
+                android:textColor="@color/gray_2"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_right" />
+    </LinearLayout>
+
+    <include layout="@layout/splite_line_margin_left_right" />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/llAppraisalProductInfo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@drawable/item_clicked_bg_selector"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:scaleType="centerInside" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:text="技术鉴定产品信息"-->
+                <!--android:textColor="@color/common_text_gray"-->
+                <!--android:textSize="15sp" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:text="消防水带"-->
+                <!--android:textColor="@color/gray_2"-->
+                <!--android:textSize="12sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="10dp"-->
+            <!--android:layout_height="12dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:scaleType="centerInside"-->
+            <!--android:src="@drawable/arrow_right" />-->
+    <!--</LinearLayout>-->
+
+    <!--<include layout="@layout/splite_line_margin_left_right" />-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/llOtherProductInfo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@drawable/item_clicked_bg_selector"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:scaleType="centerInside" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:text="其他消防产品信息"-->
+                <!--android:textColor="@color/common_text_gray"-->
+                <!--android:textSize="15sp" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:text="消防水带"-->
+                <!--android:textColor="@color/gray_2"-->
+                <!--android:textSize="12sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="10dp"-->
+            <!--android:layout_height="12dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:scaleType="centerInside"-->
+            <!--android:src="@drawable/arrow_right" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>
